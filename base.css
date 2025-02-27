@@ -20,19 +20,28 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:  rgb(99, 56, 240);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color:  rgb(99, 56, 240);
     min-height: 150px;
 }
 .content {
-    background-color: white;
+    background-color:  rgb(99, 56, 240);
     min-height: 300px;
     padding: 20px;
+    color: white;
 }
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+
+a {
+    color: white;
+}
+
+img {
+    border-radius: 50px 50px;
 }

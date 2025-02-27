@@ -1,34 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template - Utilizar como modelo</title>
     <link rel="stylesheet" href="base.css">
+    <style>
+        .header img {
+            display: block;
+            margin: auto;
+        }
+        .content {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            color: white;
+        }
+        th , td {
+            border: solid 1px;
+        } 
+        table {
+            box-shadow: 0px 4px 35px -3px rgba(102,102,102,1);
+            -moz-box-shadow: 0px 4px 35px -3px rgba(102,102,102,1);
+            box-shadow: 0px 4px 35px -3px rgb(78, 236, 236);
+            text-align: center;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
             <!-- Aqui vai o seu menu -->
             <ul>
-                <li><a href="#">Link</a></li>
+                <br>
+                <hr>
+                <li><a href="template.html">Página principal</a></li><br>
+                <hr>
+                <li><a href="sobre.html">Sobre a Clínica</a></li><br>
+                <hr>
+                <li><a href="atendimento.html">Horário de atendimento</a></li><br>
+                <hr>
+                <li><a href="contato.html">Contato</a></li><br>
+                <hr>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
+                <img src="imagens/atendente.jpg" width="300" alt="atendente">
                 <!-- Aqui vai o seu header -->
             </div>
     
             <div class="content">
-                Content
+                <h1><u>Agende seu Horário</u></h1>
+
+                <table>
+                    <theader>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sabados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </theader>
+                    <tbody>
+                        <tr>
+                            <td>Cirurgião</td>
+                            <td>08:00 as 17:00</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatra</td>
+                            <td>08:00 as 17:00</td>
+                            <td>08:00 as 14:00</td>
+                            <td>08:00 ao 12:00</td>
+                        </tr>
+                        <tr>
+                            <td>Ortodontista</td>
+                            <td>08:00 as 16:00</td>
+                            <td>08:00 ao 12:00</td>
+                            <td>--</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <!-- Aqui vai o seu conteúdo -->
             </div>
     
             <div class="footer">
-                Footer
+                &copy;Tira Dentes Corporation
                 <!-- Aqui vai o seu rodapé -->
             </div>
         </div>
